@@ -31,7 +31,9 @@ public class IntroToArrayLists {
 			
 		}
 		//6. Print all the Strings in reverse order.
-		
+		for(String v :f) {
+			
+		}
 		//7. Print only the Strings that have the letter 'e' in them.
 	}
 }
