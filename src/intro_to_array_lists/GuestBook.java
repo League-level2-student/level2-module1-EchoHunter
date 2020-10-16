@@ -48,8 +48,9 @@ public void actionPerformed(ActionEvent arg0) {
 		nameNum++;
 	}
 	else if(arg0.getSource()== viewNames) {
-		for (int i = 0; i < nameNum; i++) {
+		for (int i = 1; i < nameNum;) {
 			System.out.println("Guest #"+ i +": "+names.get(i));
+			i++;
 		}
 	}
 }

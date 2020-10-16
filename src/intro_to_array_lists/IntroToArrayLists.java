@@ -11,7 +11,7 @@ public class IntroToArrayLists {
 		f.add("epic");
 		f.add("okay");
 		f.add("funny");
-		f.add("shouldn''t you be coding?");
+		f.add("shouldn't you be coding?");
 		f.add("get back to work");
 		//3. Print all the Strings using a standard for-loop
 		for (int i = 0; i < 5; i++) {
@@ -24,16 +24,28 @@ public class IntroToArrayLists {
 		//5. Print only the even numbered elements in the list.
 		int s = 0;
 		for (String c : f) {
-			s++;
+			
 			if (s%2 == 0) {
 				System.out.println(c);
 			}
+			s++;
 			
 		}
 		//6. Print all the Strings in reverse order.
+		int t = 4;
 		for(String v :f) {
 			
+			System.out.println(f.get(t));
+			t--;
 		}
 		//7. Print only the Strings that have the letter 'e' in them.
+	for(String h:f) {
+		for (int i = 0; i < h.length(); i++) {
+			if(h.charAt(i)==('e')) {
+				System.out.println(h);
+			}
+		}
+	}
+	
 	}
 }
